@@ -56,7 +56,7 @@ public class Forcefield extends JavaPlugin implements Listener {
 			@Override
 			public void run() {
 				e.getPlayer().sendTitle("§m§l§3------§eForcefield§m§l§3-----", "§dDev by §a§lZeldown");
-				e.getPlayer().playSound(e.getPlayer().getLocation(), Sound.UI_TOAST_IN, 10f, 1f);
+				e.getPlayer().playSound(e.getPlayer().getLocation(), Sound.UI_TOAST_CHALLENGE_COMPLETE, 10f, 1f);
 			}
 		}.runTaskLater(this, 80);
 	}
